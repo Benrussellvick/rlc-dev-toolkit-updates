@@ -1,0 +1,21 @@
+{
+  "announcements": [
+    {
+      "_comment": "TEMPLATE \u2014 copy this block, change the id and set active:true to publish. Types: info | warning | success | urgent",
+      "id": "_template",
+      "type": "info",
+      "title": "Optional bold title",
+      "message": "The body text shown to users",
+      "date": "YYYY-MM-DD",
+      "active": false
+    },
+    {
+      "id": "2026-06-02-001",
+      "type": "success",
+      "title": "RLC Dev Toolkit v2.1.0 Released",
+      "message": "New WebDAV update system for maximum reliability! Updates now check WebDAV (internal servers) first, then GitHub if needed. Announcements refresh every 60 seconds. Go-Live Date picker now shows mm/dd/yyyy format with improved calendar icon.",
+      "date": "2026-06-02",
+      "active": true
+    }
+  ]
+}
